@@ -5,5 +5,13 @@
 // newEl.className = 'header';
 // root.appendChild(newEl);
 
-ReactDOM.render(<h1 className='header'>This is some text content</h1>, document.getElementById('root'));
+// JSX can be stored in a variable. wtf
 
+const page = (
+	<div>
+		<h1 className='header'>This is SPARTA</h1>
+		<p>This is a paragraph</p>
+	</div>
+);
+
+ReactDOM.render(page, document.getElementById('root'));
